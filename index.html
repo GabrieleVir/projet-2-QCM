@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Questionnaire</title>
+</head>
+<body>
+	<main class="container">
+		<header>
+			<h1 id="title">Take de Quizz</h1>
+			<hr>
+			<h2 class="sujet1">Quel éco-citoyen es-tu?</h2>
+			<p class="sujet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ullam repudiandae labore veritatis? <br/>Sit quidem, dicta magni neque quia, dolor ducimus iste incidunt cupiditate blanditiis perferendis dolore optio! Labore, aut.</p>
+			<hr>
+		</header>
+		<form method="POST" action="assets/php/correction.php" id="questionnaire">
+			<label for="nom">Votre nom</label>
+			<input type="text" name="nom" id="nom">
+			<label for="prenom">Votre prénom</label>
+			<input type="text" name="prenom" id="prenom">
+			<label for="email">Votre e-mail</label>
+			<input type="email" name="email" id="email">
+			
+			<ol>
+				<li> 
+					<h3>1.Parmi les variables suivantes, lesquelles ont un nom valide en PHP:</h3>
+					<div>
+						<input type="radio" name ="rep1" value="fausse" id ="question" ><label for="question">réponse A</label><br/>
+						<input type="radio" name ="rep1" value="correcte" id ="question2" ><label for="question2"> réponse B</label><br/>
+						<input type="radio" name ="rep1" value="fausse" id ="question3"><label for="question3"> réponse C</label><br/>
+						<hr/>
+					</div>
+				</li>
+				
+				<li>
+					<h3>2.Le code PHP doit se trouver à l'intérieur de balises spécifiques. Lesquelles?</h3>
+					<div>
+						<input type="radio" name ="rep2" value="correcte" id="question2.1">
+						<label for="question2.1"> réponse A</label><br/>
+						<input type="radio" name ="rep2" value="fausse" id="question2.2" >
+						<label for="question2.2">réponse B</label><br/>
+						<input type="radio" name ="rep2" value="fausse" id="question2.3" >
+						<label for="question2.3">réponse C</label><br/>
+						<hr/>
+					</div>
+				</li>
+				
+				<li>
+					<h3>3.Comment récupérer en PHP l'information envoyée par un formulaire utilisant la méthode "GET" ?</h3>
+					<div>
+						<input type="radio" name ="rep3" id="question3.1" value="fausse">
+						<label for="question3.1">réponse A</label><br/>
+						<input type="radio" name ="rep3" id="question3.2" value="fausse">
+						<label for="question3.2">réponse B</label><br/>
+						<input type="radio" name ="rep3" id="question3.3" value="correcte">
+						<label for="question3.3">réponse C</label><br/>
+						<hr/>
+					</div>
+				</li>
+				<li>
+					<h3>4.Lorsqu'on soumet un formulaire utilisant la méthode POST, les variables sont affichées dans l'URL. Vrai ou faux?
+					</h3>
+					<div>
+						<input type="radio" name ="rep4" id="question4.1" value="fausse">
+						<label for="question4.1">Vrai</label><br/>
+						<input type="radio" name ="rep4" id="question4.2" value="fausse">
+						<label for="question4.2">Faux</label><br/>
+						<hr/>
+					</div>
+				</li>
+				<li>
+					<h3>5.Quelle est la différence entre $a=$b et $a==$b ?
+					</h3>
+					<div>
+						<input type="radio" name ="rep5" id="question5.1" value="fausse">
+						<label for="question5.1">Vrai</label><br/>
+						<input type="radio" name ="rep5" id="question5.2" value="fausse">
+						<label for="question5.2">Faux</label><br/>
+						<hr/>
+					</div>
+				</li>
+				<li>
+					<h3>6.Par quel caractère doit se terminer chaque ligne de code php?
+					</h3>
+					<div>
+						<input type="radio" name ="rep6" id="question6.1" value="fausse">
+						<label for="question6.1">Vrai</label><br/>
+						<input type="radio" name ="rep6" id="question6.2" value="fausse">
+						<label for="question6.2">Faux</label><br/>
+						<hr/>
+					</div>
+				</li>
+				<li>
+					<h3>7.Que donnera cette ligne : echo "Hello" + " World"; ?
+					</h3>
+					<div>
+						<input type="radio" name ="rep7" id="question7.1" value="fausse">
+						<label for="question7.1">Vrai</label><br/>
+						<input type="radio" name ="rep7" id="question7.2" value="fausse">
+						<label for="question7.2">Faux</label><br/>
+						<hr/>
+					</div>
+				</li>
+				<li>
+					<h3>8.Quelle est la bonne syntaxe:
+					</h3>
+					<div>
+						<input type="radio" name ="rep8" id="question8.1" value="fausse">
+						<label for="question8.1">Vrai</label><br/>
+						<input type="radio" name ="rep8" id="question8.2" value="fausse">
+						<label for="question8.2">Faux</label><br/>
+						<hr/>
+					</div>
+				</li>
+				<li>
+					<h3>9.Comment indique-t-on un commentaire en PHP?
+					</h3>
+					<div>
+						<input type="radio" name ="rep9" id="question9.1" value="fausse">
+						<label for="question9.1">Vrai</label><br/>
+						<input type="radio" name ="rep9" id="question9.2" value="fausse">
+						<label for="question9.2">Faux</label><br/>
+						<hr/>
+					</div>
+				</li>
+				<li>
+					<h3>10.Sachant que $a = 4. Quelle instruction affichera : 4 = quatre ?
+					</h3>
+						
+					<div>
+						<input type="radio" name ="rep10" id="question10.1" value="fausse">
+						<label for="question10.1">echo '$a = quatre';</label><br/>
+						<input type="radio" name ="rep10" id="question10.2" value="fausse">
+						<label for="question10.2">echo '$a = 2+2';</label><br/>
+						<input type="radio" name ="rep10" id="question10.3" value="fausse">
+						<label for="question10.3">echo "$a = quatre";</label><br/>
+					<hr/>
+					</div>
+				</li>
+			</ol>
+			<input type="submit" name="submit-test" value="Envoyer vos réponses">
+		</form>
+	</main>
+</body>
+</html>
