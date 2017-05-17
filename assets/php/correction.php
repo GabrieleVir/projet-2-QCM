@@ -42,8 +42,9 @@ if (isset($_POST['submit-test']))
 } 
 */
 
-if (isset($_POST['submit-test'])) 
+if (isset($_POST['submit-test']) ) 
 {
+
 	$nom = stringSani($_POST['nom']);
 	$prenom = stringSani($_POST['prenom']);
 	$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);

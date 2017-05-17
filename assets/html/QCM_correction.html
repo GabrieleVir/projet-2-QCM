@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<title>Questionnaire</title>
+</head>
+<body>
+	<main class="container">
+		<header>
+			<h1 id="title">Take de Quizz</h1>
+			<hr>
+			<h2 class="sujet1">Quel éco-citoyen es-tu?</h2>
+			<p class="sujet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ullam repudiandae labore veritatis? <br/>Sit quidem, dicta magni neque quia, dolor ducimus iste incidunt cupiditate blanditiis perferendis dolore optio! Labore, aut.</p>
+			<hr>
+		</header>
+		<form method="POST" action="../php/correction2.php" id="questionnaire">
+			<label for="nom">Votre nom</label>
+			<input type="text" name="nom" id="nom" >
+			<label for="prenom">Votre prénom</label>
+			<input type="text" name="prenom" id="prenom">
+			<label for="email">Votre e-mail</label>
+			<input type="email" name="email" id="email">
+			
+			<ol>
+				<li> 
+					<h3>1.Question:</h3>
+					<div>
+						<input type="radio" name ="rep1" value="fausse1" id ="question" ><label for="question">réponse A</label><br/>
+						<input type="radio" name ="rep1" value="correcte" id ="question2" ><label for="question2"> réponse B</label><br/>
+						<input type="radio" name ="rep1" value="fausse2" id ="question3"><label for="question3"> réponse C</label><br/>
+						<hr/>
+					</div>
+				</li>
+				
+
+			</ol>
+			<input type="submit" name="submit-test" value="Envoyer vos réponses(1er test)">
+		</form>
+	</main>
+</body>
+</html>
