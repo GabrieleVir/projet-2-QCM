@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+	font-family: arial;
+	background-color: #C8A9BA;
+	color:#EBEBEB;
+}
+
+
+/* css header */
+.header-l {
+	background-color: #843E64;
+}
+
+
+.Nom-quizz {
+	text-align: center;
+}
+
+.sujet {
+	text-align: left;
+}
+
+.Nom-quizz {
+	background-color:#C8A9BA;
+	border-radius: 20px;
+}
+/* end css header */
+
+/* form css */
+.list-question {
+	list-style:none;
+	
+}
+
+.reponse-l {
+	display:inline-block;
+	margin-top: 1%;
+}
+
+.form-l {
+	background-color:#925375;
+}
+
+.taille-quest {
+	list-style: decimal-leading-zero;
+    font-size: 2em;
+    margin: 0 0 0 0.1em;
+
+}
+#nom, #prenom, #email {
+	color:black;
+
+}
+
+.input-info {
+	text-align: center;
+}
+/* end form css */
