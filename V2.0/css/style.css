@@ -57,3 +57,22 @@ body {
 	text-align: center;
 }
 /* end form css */
+
+/*Resultat css */
+.affichage {
+	text-align: center;
+	width: 100%;
+	margin-top: 100px;
+	border:2px solid purple;
+}
+
+.resultat {
+	text-align: center;
+	font-size: 16px;
+}
+
+.affichage h1 {
+	color: black;
+	font-weight: bold;
+}
+/*end resultat css */
